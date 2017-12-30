@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Blueberry314/musical-pancake#readme",
   "dependencies": {
+    "axios": "^0.17.1",
     "express": "^4.16.2",
     "method-override": "^2.3.10",
     "mongoose": "^5.0.0-rc0",

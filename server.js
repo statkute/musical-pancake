@@ -3,11 +3,14 @@ const mongoose = require('mongoose');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
-const myModule = require('./productHandler');
+const productHandler = require('./productHandler');
+const axios = require('axios');
+const fs = require("fs");
 const port = 3000;
 
 var app = express();
-
+var secret = fs.readFileSync("secret.json");
+var API_KEY = JSON.parse(secret).API_Key;
 //config ==========================================
 
 //mongoose.connect('mongodb://node:')
@@ -22,17 +25,36 @@ app.use(methodOverride());
 //routes ==========================================
 
 app.get('/api/products', function(req, res) {
-  productObj = myModule.get3Products();
-  console.log('productObj: ', productObj);
+  productObj = productHandler.get3Products();
+  //console.log('productObj: ', productObj);
   res.json(productObj);
 });
 
 app.post('/api/products', function(req,res) {
   var product =  req.body.choise;
+  productHandler.chosenProduct(product);
   console.log(product);
 });
 
-
+app.get('/api/recepie', function(req,res) {
+  var url = `http://food2fork.com/api/search?key=${API_KEY}${productHandler.getSearchQuery()}`;
+  var url2 ='';
+  axios.get(url)
+    .then((rep) => {
+      console.log(rep.data);
+      console.log(rep.data.recipes[0].recipe_id);
+      url2 = `http://food2fork.com/api/get?key=${API_KEY}&rId=${rep.data.recipes[0].recipe_id}`;
+      return (axios.get(url2));
+  })
+  .then((rep) => {
+    console.log("url2 is: ", url2);
+    console.log(rep.data);
+    res.json(rep.data);
+  })
+  .catch((e) =>{
+      console.log(e);
+  });
+});
 //application =====================================
 
 app.get('*', function(req, res) {
