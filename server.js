@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
+const myModule = require('./productHandler');
 const port = 3000;
 
 var app = express();
@@ -21,7 +22,9 @@ app.use(methodOverride());
 //routes ==========================================
 
 app.get('/api/products', function(req, res) {
-  res.json({'1':'banana', '2':'nutella', '3':'peperroni'});
+  productObj = myModule.get3Products();
+  console.log('productObj: ', productObj);
+  res.json(productObj);
 });
 
 app.post('/api/products', function(req,res) {
