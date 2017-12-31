@@ -4,7 +4,6 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const productHandler = require('./productHandler');
-const axios = require('axios');
 const fs = require("fs");
 const port = 3000;
 
@@ -36,24 +35,37 @@ app.post('/api/products', function(req,res) {
   console.log(product);
 });
 
-app.get('/api/recepie', function(req,res) {
-  var url = `http://food2fork.com/api/search?key=${API_KEY}${productHandler.getSearchQuery()}`;
-  var url2 ='';
-  axios.get(url)
-    .then((rep) => {
-      console.log(rep.data);
-      console.log(rep.data.recipes[0].recipe_id);
-      url2 = `http://food2fork.com/api/get?key=${API_KEY}&rId=${rep.data.recipes[0].recipe_id}`;
-      return (axios.get(url2));
-  })
-  .then((rep) => {
-    console.log("url2 is: ", url2);
-    console.log(rep.data);
-    res.json(rep.data );
-  })
-  .catch((e) =>{
-      console.log(e);
-  });
+app.get('/api/recipe', function(req,res) {
+  var recipe = {"title": "Salmon with beetroot, feta & lime salsa",
+                "details": {
+                  "difficulty": "easy",
+                  "prep_time": "5 mins",
+                  "cook_time": "10 mins"
+                },
+                "ingredients": {
+                  "count":"3",
+                  "0":{
+                    "amount":"500 g",
+                    "name": "salmon"
+                  },
+                  "1":{
+                    "amount":"200 g",
+                    "name": "beetroot"
+                  },
+                  "2":{
+                    "amount":"150g",
+                    "name":"feta"
+                  }
+                },
+                "method":{
+                  "steps":{
+                    "step_count":"2",
+                    "0": "To this and that",
+                    "1": "Once this and that is done do that this"
+                  }
+                }
+              };
+    res.json(recipe);
 });
 //application =====================================
 
