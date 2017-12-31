@@ -49,7 +49,7 @@ app.get('/api/recepie', function(req,res) {
   .then((rep) => {
     console.log("url2 is: ", url2);
     console.log(rep.data);
-    res.json(rep.data);
+    res.json(rep.data );
   })
   .catch((e) =>{
       console.log(e);
