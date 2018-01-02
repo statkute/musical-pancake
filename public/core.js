@@ -3,6 +3,7 @@ var myAppModule = angular.module("myApp", []);
 function mainController($scope, $http) {
   $scope.productData = {};
   $scope.sendData = {};
+  $scope.recipeData = {};
 
   $http.get('/api/products')
     .success(function(data) {
@@ -28,4 +29,17 @@ function mainController($scope, $http) {
           console.log('Error: ' + data);
         });
     };
+
+    $http.get('/api/recipe')
+      .success(function(data) {
+        $scope.recipe = data
+        console.log(data['title']);
+      })
+      .error(function(data) {
+        console.log('Error: ' + data);
+      });
 };
+
+$(document).ready(function(){
+
+});

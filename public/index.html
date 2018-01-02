@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
 
-    <title>Node/Angular Todo App</title>
+    <title>Meal picker</title>
 
     <!-- SCROLLS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!-- load bootstrap -->
@@ -45,6 +45,38 @@
          </div>
         </div>
     </div>
+
+    <div class="container">
+    </br>
+    </br>
+        <div class="panel panel-default">
+  <div class="panel-heading">
+    <h1 class="panel-title"> {{recipe.title}} </h1>
+  </div>
+  <div class="panel-body">
+    <h4>Details</h4>
+    <p>Difficulty: {{recipe.details.difficulty}}</p>
+    <p>Preparation time: {{recipe.details.prep_time}}</p>
+    <p>Cooking time: {{recipe.details.cook_time}}</p>
+    </br>
+
+    <h4>Ingredients</h4>
+    <p>Number of total ingredients: {{recipe.ingredients.count}}</p>
+    </br>
+    <p>1) {{recipe.ingredients.0.amount}} of {{recipe.ingredients.0.name}}</p>
+    <p>2) {{recipe.ingredients.1.amount}} of {{recipe.ingredients.1.name}}</p>
+    <p>3) {{recipe.ingredients.2.amount}} of {{recipe.ingredients.2.name}}</p>
+    </br>
+
+    <h4>Method</h4>
+    <p>Total steps required: {{recipe.method.step_count}}</p>
+    </br>
+    <p>1) {{recipe.method.steps.0}}</p>
+    <p>2) {{recipe.method.steps.1}}</p>
+    </br>
+
+  </div>
+</div>
 
 </body>
 </html>
