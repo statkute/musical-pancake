@@ -4,11 +4,9 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const productHandler = require('./productHandler');
-const fs = require("fs");
 const port = 3000;
 
 var app = express();
-//var secret = fs.readFileSync("secret.json");
 //var API_KEY = JSON.parse(secret).API_Key;
 //config ==========================================
 
@@ -24,8 +22,7 @@ app.use(methodOverride());
 //routes ==========================================
 
 app.get('/api/products', function(req, res) {
-  productObj = productHandler.get3Products();
-  //console.log('productObj: ', productObj);
+  productObj = productHandler.getIngredinetChoises();
   res.json(productObj);
 });
 

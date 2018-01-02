@@ -1,0 +1,332 @@
+{
+  "reversed_map": {
+    "salmon": [
+      0,
+      14
+    ],
+    "beetroot": [
+      0,
+      20
+    ],
+    "feta": [
+      0,
+      4,
+      8,
+      20
+    ],
+    "egg": [
+      1
+    ],
+    "ice cream": [
+      2
+    ],
+    "coffee": [
+      2
+    ],
+    "peas": [
+      3,
+      30
+    ],
+    "beans": [
+      3,
+      4,
+      10,
+      16,
+      23
+    ],
+    "chilli": [
+      3,
+      4,
+      33
+    ],
+    "burrata": [
+      3
+    ],
+    "courgette": [
+      4,
+      19
+    ],
+    "mackerel": [
+      4,
+      26
+    ],
+    "broccoli": [
+      5
+    ],
+    "gnocchi": [
+      5,
+      18
+    ],
+    "rice noodles": [
+      6,
+      25
+    ],
+    "mango": [
+      6
+    ],
+    "chicken": [
+      7,
+      13,
+      24,
+      29
+    ],
+    "cucumber": [
+      7
+    ],
+    "couscous": [
+      8
+    ],
+    "prawns": [
+      9,
+      15,
+      16,
+      19,
+      32,
+      33
+    ],
+    "beansprouts": [
+      9
+    ],
+    "baguette": [
+      9,
+      34
+    ],
+    "eggs": [
+      10,
+      38
+    ],
+    "lettuce": [
+      10
+    ],
+    "cheese": [
+      11,
+      17,
+      18,
+      24,
+      25,
+      30
+    ],
+    "spinach": [
+      11,
+      22
+    ],
+    "tomatoes": [
+      11,
+      23,
+      25,
+      28,
+      31,
+      35,
+      36
+    ],
+    "chocolate": [
+      12
+    ],
+    "nuts": [
+      12
+    ],
+    "fruit": [
+      12
+    ],
+    "avocado": [
+      13
+    ],
+    "jalapeño": [
+      13
+    ],
+    "rice": [
+      14,
+      16,
+      26,
+      32,
+      38
+    ],
+    "pak choi": [
+      14
+    ],
+    "noodles": [
+      15
+    ],
+    "wasabi": [
+      15
+    ],
+    "tuna": [
+      17,
+      39
+    ],
+    "penne": [
+      17
+    ],
+    "mushrooms": [
+      18,
+      21,
+      37
+    ],
+    "curry": [
+      19,
+      38
+    ],
+    "grain": [
+      20
+    ],
+    "beef": [
+      21,
+      31
+    ],
+    "ginger": [
+      21,
+      29,
+      33
+    ],
+    "sultana": [
+      22
+    ],
+    "pork": [
+      23,
+      37
+    ],
+    "potatoes": [
+      23
+    ],
+    "tortillas": [
+      24,
+      27
+    ],
+    "ricotta": [
+      27
+    ],
+    "cod": [
+      28
+    ],
+    "egg noddle": [
+      29
+    ],
+    "lamb": [
+      30
+    ],
+    "apricots": [
+      31
+    ],
+    "steak": [
+      34,
+      35
+    ],
+    "spaghetti": [
+      36
+    ],
+    "seafood mix": [
+      36
+    ],
+    "pasta": [
+      39
+    ]
+  },
+  "key_ingredients_list": [
+    "salmon, beetroot, feta",
+    "egg",
+    "ice cream",
+    "coffee",
+    "peas",
+    "beans",
+    "chilli",
+    "burrata",
+    "chilli",
+    "courgette",
+    "beans",
+    "feta",
+    "mackerel",
+    "broccoli",
+    "gnocchi",
+    "rice noodles",
+    "mango",
+    "chicken",
+    "cucumber",
+    "couscous",
+    "feta",
+    "prawns",
+    "beansprouts",
+    "baguette",
+    "eggs",
+    "beans",
+    "lettuce",
+    "cheese",
+    "spinach",
+    "tomatoes",
+    "chocolate",
+    "nuts",
+    "fruit",
+    "chicken",
+    "avocado",
+    "jalapeño",
+    "salmon",
+    "rice",
+    "pak choi",
+    "prawns",
+    "noodles",
+    "wasabi",
+    "rice",
+    "prawns",
+    "beans",
+    "cheese",
+    "tuna",
+    "penne",
+    "gnocchi",
+    "mushrooms",
+    "cheese",
+    "prawns",
+    "courgette",
+    "curry",
+    "feta",
+    "beetroot",
+    "grain",
+    "beef",
+    "ginger",
+    "mushrooms",
+    "sultana",
+    "spinach",
+    "pork",
+    "potatoes",
+    "beans",
+    "tomatoes",
+    "chicken",
+    "cheese",
+    "tortillas",
+    "rice noodles",
+    "tomatoes",
+    "cheese",
+    "mackerel",
+    "rice",
+    "ricotta",
+    "tortillas",
+    "tomatoes",
+    "cod",
+    "chicken",
+    "ginger",
+    "egg noddle",
+    "peas",
+    "cheese",
+    "lamb",
+    "beef",
+    "apricots",
+    "tomatoes",
+    "prawns",
+    "rice",
+    "ginger",
+    "chilli",
+    "prawns",
+    "steak",
+    "baguette",
+    "steak",
+    "tomatoes",
+    "tomatoes",
+    "spaghetti",
+    "seafood mix",
+    "pork",
+    "mushrooms",
+    "rice",
+    "curry",
+    "eggs",
+    "tuna",
+    "pasta"
+  ]
+}

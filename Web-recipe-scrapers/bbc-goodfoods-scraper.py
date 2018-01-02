@@ -1,4 +1,5 @@
 import requests
+import json
 from bs4 import BeautifulSoup
 
 HEADERS = {
@@ -31,13 +32,25 @@ class BBCGoodfoodScraper():
 
 
     def getRecipe(self, url, idx):
+        recipe = {}
+        recipe['details'] = {}
+        recipe['ingredients'] = {}
+        recipe['method'] = {}
+        page = requests.get(self.rootUrl+url, headers = HEADERS)
+        soup = BeautifulSoup(page.content, 'html.parser')
         recipe_title = soup.find('h1', attrs={'class':'recipe-header__title', 'itemprop':'name'}).text
         recipe_details = soup.find('div', attrs={'class':'recipe-details'})
         recipe_ingredients = soup.find('div', attrs={'class':'ingredients-list__content'})
         recipe_method = soup.find('div', attrs={'class':'method'})
         recipe['title'] = recipe_title
-        recipe['details']['prep_time'] = recipe_details.find_all('span', attrs={'class':'mins'})[0].text
-        recipe['details']['cook_time'] = recipe_details.find_all('span', attrs={'class':'mins'})[1].text
+        try:
+            recipe['details']['prep_time'] = recipe_details.find_all('span', attrs={'class':'mins'})[0].text
+        except Exception as inst:
+            recipe['details']['prep_time'] = 'N/A'
+        try:
+            recipe['details']['cook_time'] = recipe_details.find_all('span', attrs={'class':'mins'})[1].text
+        except Exception as inst:
+            recipe['details']['cook_time'] = 'N/A'
         recipe['details']['difficulty'] = recipe_details.find('span', attrs={'class':'recipe-details__text'}).text
         count = 0
         for ingredient_text in recipe_ingredients.find_all('li', attrs={'class':'ingredients-list__item'}):
@@ -59,7 +72,12 @@ class BBCGoodfoodScraper():
             count += 1
         self.recipes['count'] = count
 
-if __name__ == "__main__":
+def get_and_save_recipes(url):
     scraper = BBCGoodfoodScraper()
-    scraper.getAllRecipeLinks('/recipes/collection/under-20-minutes')
+    scraper.getAllRecipeLinks(url)
     scraper.getAllRecipes()
+    with open('recipes.json','w') as f:
+        json.dump(scraper.recipes, f)
+
+if __name__ == "__main__":
+    get_and_save_recipes('/recipes/collection/under-20-minutes')

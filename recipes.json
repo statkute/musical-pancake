@@ -1,0 +1,1629 @@
+{
+  "recipes": {
+    "0": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["salmon, beetroot, feta"],
+        "0": {
+          "name": "200g cooked beetroot"
+        },
+        "1": {
+          "name": "70g feta"
+        },
+        "2": {
+          "name": "2 limes"
+        },
+        "3": {
+          "name": "2 skin-on salmon"
+        },
+        "count": 4
+      },
+      "method": {
+        "0": "Chop the beetroot and feta into small cubes and mix with the juice and zest of one lime and some seasoning.",
+        "1": "Season the salmon. Heat 2 tbsp of oil in a",
+        "2": "nonstick frying pan",
+        "3": "over a high heat. When hot add the salmon, skin-side down, and cook for 3 mins. Flip over, turn the heat down and cook for a further 4-5 mins. Serve with the beetroot salsa and the remaining lime, cut into wedges.",
+        "count": 4
+      },
+      "title": "Salmon with beetroot, feta & lime salsa"
+    },
+    "1": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "5 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["egg"],
+        "0": {
+          "name": "3 eggs"
+        },
+        "1": {
+          "name": "1 tsp sunflower oil"
+        },
+        "2": {
+          "name": "1 tsp butter"
+        },
+        "count": 3
+      },
+      "method": {
+        "0": "Season the beaten eggs well with salt and pepper. Heat the oil and butter in a",
+        "1": "non-stick frying pan",
+        "2": "over a medium-low heat until the butter has melted and is foaming.",
+        "3": "Pour the eggs into the pan, tilt the pan ever so slightly from one side to another to allow the eggs to swirl and cover the surface of the pan completely. Let the mixture cook for about 20 seconds then scrape a line through the middle with a spatula.",
+        "4": "Tilt the pan again to allow it to fill back up with the runny egg. Repeat once or twice more until the egg has just set.",
+        "5": "At this point you can fill the omelette with whatever you like – some grated cheese, sliced ham, fresh herbs, sautéed mushrooms or smoked salmon all work well. Scatter the filling over the top of the omelette and fold gently in half with the",
+        "6": "spatula",
+        "7": ". Slide onto a plate to serve.",
+        "count": 8
+      },
+      "title": "Basic omelette recipe"
+    },
+    "2": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "N/A",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["ice cream", "coffee"],
+        "0": {
+          "name": "4 scoops vanilla ice cream"
+        },
+        "1": {
+          "name": "4 shots espresso, freshly made and hot"
+        },
+        "2": {
+          "name": "8 amaretti biscuits, crushed"
+        },
+        "count": 3
+      },
+      "method": {
+        "0": "Divide the ice cream between four coffee cups. Carefully pour a shot of espresso over each, then scatter over the amaretti biscuit crumbs. Serve immediately while some of the ice cream is still frozen.",
+        "count": 1
+      },
+      "title": "Amaretti affogato"
+    },
+    "3": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["peas","beans","chilli","burrata"],
+        "0": {
+          "name": "40g sugar snap peas, halved diagonally, blanched"
+        },
+        "1": {
+          "name": "40g peas"
+        },
+        "2": {
+          "name": "40g broad beans, double podded, blanched"
+        },
+        "3": {
+          "name": "4 radishes"
+        },
+        "4": {
+          "name": "2 red chillies, deseeded and thinly sliced"
+        },
+        "5": {
+          "name": "1 small pack mint"
+        },
+        "6": {
+          "name": "1 small pack parsley"
+        },
+        "7": {
+          "name": "1 tbsp chardonnay vinegar"
+        },
+        "8": {
+          "name": "100ml olive oil"
+        },
+        "9": {
+          "name": "4 slices sourdough"
+        },
+        "10": {
+          "name": "2 large burrata, at room temperature"
+        },
+        "count": 11
+      },
+      "method": {
+        "0": "Mix the sugar snap peas, peas, broad beans and radish with the chillies and herbs in a bowl. Add the chardonnay vinegar and olive oil, and toss to coat.",
+        "1": "Heat grill to high. Brush the bread with oil and sprinkle with sea salt. Grill for 2 mins each side until lightly charred. Put each piece of toast on a small plate, then halve burratas and gently spread over the toast. Divide the summer beans, pile on top and season to serve.",
+        "count": 2
+      },
+      "title": "Burrata bruschetta"
+    },
+    "4": {
+      "details": {
+        "prep_time": "15 mins",
+        "cook_time": "N/A",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["chilli","courgette", "beans", "feta", "mackerel"],
+        "0": {
+          "name": "1 red chilli, finely chopped (deseeded if you don’t like it very hot)"
+        },
+        "1": {
+          "name": "1 lemon"
+        },
+        "2": {
+          "name": "2 smoked mackerel"
+        },
+        "3": {
+          "name": "1 large courgette"
+        },
+        "4": {
+          "name": "400g can butter beans, drained and rinsed"
+        },
+        "5": {
+          "name": "3 tbsp extra virgin olive oil, plus extra for drizzling"
+        },
+        "6": {
+          "name": "1 small pack parsley"
+        },
+        "7": {
+          "name": "50g feta"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Toss everything together in a salad bowl, taste and adjust for seasoning, then serve.",
+        "count": 1
+      },
+      "title": "Smoked mackerel, courgette & butter bean salad"
+    },
+    "5": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "5 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["broccoli", "gnocchi"],
+        "0": {
+          "name": "3 tbsp crème fraîche"
+        },
+        "1": {
+          "name": "½ tbsp Dijon mustard"
+        },
+        "2": {
+          "name": "½ lemon"
+        },
+        "3": {
+          "name": "200g Tenderstem broccoli, each cut into 3 pieces"
+        },
+        "4": {
+          "name": "350g fresh gnocchi"
+        },
+        "5": {
+          "name": "2 tbsp olive oil"
+        },
+        "6": {
+          "name": "100g frozen peas"
+        },
+        "7": {
+          "name": "1 tbsp toasted pine nuts"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Mix together the crème fraîche, mustard and lemon juice. Set aside. Bring a large pan of salted water to the boil. Once boiling, add the broccoli and cook for 3 mins, then tip in the gnocchi. Cook until the gnocchi begins to float to the surface, this will only take 1 min so keep an eye on them, then drain.",
+        "1": "Heat the oil in a large",
+        "2": "non-stick frying pan",
+        "3": "and, once hot, tip in the gnocchi, broccoli and frozen peas. Toss around in the hot oil for 1 min, then stir through the crème fraîche mixture. Season to taste. Once hot, spoon into bowls and top with the lemon zest and pine nuts.",
+        "count": 4
+      },
+      "title": "Creamy broccoli gnocchi"
+    },
+    "6": {
+      "details": {
+        "prep_time": "15 mins",
+        "cook_time": "3 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["rice noodles", "mango"],
+        "0": {
+          "name": "50g instant rice noodles"
+        },
+        "1": {
+          "name": "juice ½ lime"
+        },
+        "2": {
+          "name": "1 tsp fish sauce"
+        },
+        "3": {
+          "name": "50g mango pieces"
+        },
+        "4": {
+          "name": "1 carrot"
+        },
+        "5": {
+          "name": "½ small pack mint"
+        },
+        "6": {
+          "name": "½ small pack coriander"
+        },
+        "7": {
+          "name": "1 tbsp salted peanuts"
+        },
+        "8": {
+          "name": "pinch chilli flakes"
+        },
+        "count": 9
+      },
+      "method": {
+        "0": "Put 50g instant rice noodles in a bowl and cover with boiling water, leave to stand for 3 mins, drain then rinse in cold water and drain well. Squeeze juice ½ lime into a jar along with 1 tsp fish sauce. Put 50g mango pieces on top, then add the noodles. Slice 1 carrot into ribbons with a vegetable peeler and pile on top of the noodles.",
+        "1": "Fill the rest of the jar with ½ small pack mint, ½ small pack coriander, 1 tbsp salted peanuts and pinch chilli flakes. Put the lid on and store in the fridge for up to one day. When you want to serve, tip everything out into a bowl and mix well. Add soy sauce to taste, if you like.",
+        "count": 2
+      },
+      "title": "Noodle jar salad"
+    },
+    "7": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "8 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["chicken", "cucumber"],
+        "0": {
+          "name": "2 tbsp chunky peanut butter"
+        },
+        "1": {
+          "name": "1 garlic clove, finely grated"
+        },
+        "2": {
+          "name": "1 tsp Madras curry powder"
+        },
+        "3": {
+          "name": "few shakes soy sauce"
+        },
+        "4": {
+          "name": "2 tsp lime juice"
+        },
+        "5": {
+          "name": "2 skinless, chicken"
+        },
+        "6": {
+          "name": "about 10cm cucumber, cut into fingers"
+        },
+        "7": {
+          "name": "sweet chilli sauce to serve"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Heat oven to 200C, 180C fan, gas 4 and line a baking tray with non-stick paper.",
+        "1": "Mix the peanut butter with the garlic, curry powder, soy sauce and lime in a bowl. Some nut butters are thicker than others, so if necessary, add a dash of boiling water to get a coating consistency. Add the chicken strips, mix well then arrange on the baking sheet, spaced apart, and bake in the oven for 8-10 mins until cooked, but still juicy.",
+        "2": "Eat warm with the cucumber sticks and chilli sauce, or leave to cool then keep in the fridge for up to 2 days.",
+        "count": 3
+      },
+      "title": "Nutty chicken satay strips"
+    },
+    "8": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "15 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["couscous", "feta"],
+        "0": {
+          "name": "3 ripe peaches"
+        },
+        "1": {
+          "name": "35g mixed seeds"
+        },
+        "2": {
+          "name": "150g vegetarian feta"
+        },
+        "3": {
+          "name": "1 x 100g pack lemon & garlic couscous"
+        },
+        "count": 4
+      },
+      "method": {
+        "0": "De-stone and quarter the peaches. Put in a roasting tin with the seeds, chunks of feta and drizzle over 3 tbsp olive oil. Bake for 12-15 mins at 200C/180C fan/gas 6. Cook the couscous following pack instructions. Toss the couscous with the roasted peach mixture and season to taste before serving.",
+        "count": 1
+      },
+      "title": "Feta & peach couscous"
+    },
+    "9": {
+      "details": {
+        "prep_time": "15 mins",
+        "cook_time": "5 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["prawns", "beansprouts", "baguette"],
+        "0": {
+          "name": "4 eggs"
+        },
+        "1": {
+          "name": "1 tsp fish sauce"
+        },
+        "2": {
+          "name": "1 tbsp oil"
+        },
+        "3": {
+          "name": "2 spring onions"
+        },
+        "4": {
+          "name": "12 large cooked, peeled prawns"
+        },
+        "5": {
+          "name": "handful beansprouts"
+        },
+        "6": {
+          "name": "1 small red chilli, finely sliced"
+        },
+        "7": {
+          "name": "small pack coriander, leaves picked"
+        },
+        "8": {
+          "name": "2 carrots"
+        },
+        "9": {
+          "name": "1 baguette, cut in half and each half split down the middle (or 2 small baguettes)"
+        },
+        "10": {
+          "name": "1 lime"
+        },
+        "11": {
+          "name": "1 garlic clove, crushed"
+        },
+        "12": {
+          "name": "2 tsp fish sauce"
+        },
+        "13": {
+          "name": "2 tsp soft brown sugar"
+        },
+        "count": 14
+      },
+      "method": {
+        "0": "Whisk the eggs with the fish sauce and a splash of water. Mix all the ingredients for the dressing in a bowl.",
+        "1": "Heat the oil in a",
+        "2": "frying pan",
+        "3": ", add the spring onions and fry briefly, then add the prawns and toss together. Scrape them to one side of the pan and pour in the egg mixture, then shake the pan so it runs into all the gaps. Fry until the base starts to brown, then scatter over the beansprouts, chilli and most of the coriander. Spoon over the dressing. Flip the thin side of the omelette over the side with all the filling and slide it onto a plate, then cut into quarters and divide between the baguette pieces. Finally, add the carrot and the remaining coriander leaves.",
+        "count": 4
+      },
+      "title": "Prawn & beansprout omelette baguette"
+    },
+    "10": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "5 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["eggs", "beans", "lettuce"],
+        "0": {
+          "name": "2 large eggs"
+        },
+        "1": {
+          "name": "1 lemon"
+        },
+        "2": {
+          "name": "1 tbsp tahini"
+        },
+        "3": {
+          "name": "1 tbsp rapeseed oil"
+        },
+        "4": {
+          "name": "1 red onion, chopped"
+        },
+        "5": {
+          "name": "3 large garlic cloves, finely chopped"
+        },
+        "6": {
+          "name": "1 tsp ground cumin"
+        },
+        "7": {
+          "name": "½ tsp cumin seeds"
+        },
+        "8": {
+          "name": "400g can borlotti or fava beans, juice reserved"
+        },
+        "9": {
+          "name": "2 Little Gem lettuces cut into wedges"
+        },
+        "10": {
+          "name": "2 tomatoes"
+        },
+        "11": {
+          "name": "sprinkling of dried chilli flakes and roughly chopped flat-leaf parsley, optional"
+        },
+        "count": 12
+      },
+      "method": {
+        "0": "Bring a pan of water to the boil, lower in the eggs and boil for 8 mins. Drain and run under the cold tap to cool them a little, then peel and halve. Meanwhile, mix 1 tbsp lemon juice and 3 tbsp water with the tahini to make a dressing.",
+        "1": "Heat the oil and fry the onion and garlic for 5 mins to soften them. Add the ground cumin and seeds, stir briefly then add the beans and lightly crush some of them as you heat them, adding some of the juice from the can to get a nice creamy consistency but keeping whole beans, too. Taste and add lemon juice and just a little seasoning if you need to.",
+        "2": "Spoon the beans on to plates with the lettuce, then add the eggs and tomatoes, with the tahini dressing, chilli and parsley, if using.",
+        "count": 3
+      },
+      "title": "Egyptian egg salad"
+    },
+    "11": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["cheese", "spinach", "tomatoes"],
+        "0": {
+          "name": "300g fat-free cottage cheese"
+        },
+        "1": {
+          "name": "100g cherry tomatoes, chopped"
+        },
+        "2": {
+          "name": "½ lemon"
+        },
+        "3": {
+          "name": "50g parmesan"
+        },
+        "4": {
+          "name": "25g fresh mixed herbs (basil, parsley and thyme work best), chopped, plus extra for serving"
+        },
+        "5": {
+          "name": "50g spinach"
+        },
+        "6": {
+          "name": "75g plain flour"
+        },
+        "7": {
+          "name": "1 tbsp olive oil"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "In a bowl, combine all ingredients except the flour and oil. Mix well, then stir in the flour.",
+        "1": "Heat the oil in a large frying pan over a medium heat." ,
+        "3": "Working in batches of two or three (the mixture should make six fritters), spoon large blobs into the pan and flatten with the back of the spoon to make thick discs. Turn when crisp and golden on the bottom. When both sides are cooked, remove from the pan and keep warm in a low oven while you fry the next batch.",
+        "4": "Serve hot, sprinkled with parmesan and herbs.",
+        "count": 4
+      },
+      "title": "Cottage cheese fritters"
+    },
+    "12": {
+      "details": {
+        "prep_time": "20 mins",
+        "cook_time": "N/A",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["chocolate", "nuts", "fruit"],
+        "0": {
+          "name": "1 mugful mixed dried fruit (about 225g)"
+        },
+        "1": {
+          "name": "½ mugful brandy"
+        },
+        "2": {
+          "name": "300g dark chocolate"
+        },
+        "3": {
+          "name": "½ pack butter"
+        },
+        "4": {
+          "name": "3 tbsp golden syrup"
+        },
+        "5": {
+          "name": "13 digestive biscuits (about 200g)"
+        },
+        "6": {
+          "name": "100g pack toasted flaked almonds or roasted hazelnuts, chopped (see tip, below)"
+        },
+        "count": 7
+      },
+      "method": {
+        "0": "Put the dried fruit in a small bowl and pour in just enough brandy or juice to cover. Microwave for 2 mins until steaming, then set aside.",
+        "1": "The non-messy way to chop chocolate is to smash it (still wrapped) onto your work surface, then unwrap it down to the foil and snap it (still in foil) into small bits using your fingers. Empty the chocolate into a microwaveable bowl. Add the butter and golden syrup, cover the bowl with cling film and microwave for 2 mins until melted. Set aside.",
+        "2": "Meanwhile, line a 20cm square tin with baking parchment, using a little butter to stick it in place. (You can also use foil but it’s more fiddly to peel off later, or cling film if you don’t mind wrinkles on the underside of your cake.)",
+        "3": "Take a third, large bowl. Use your fingers to break the biscuits into it. Stir in the nuts, soaked fruit and soaking liquid, then mix everything together. Pour the melted chocolate into the bowl with the biscuits, using a",
+        "4": "spatula",
+        "5": "or spoon to scrape out every last bit of chocolate. Mix together until everything is coated in chocolate.",
+        "6": "Check the ingredients list to make sure everything is accounted for (it’s surprisingly easy to miss something in this recipe), then tip the chocolate mixture into the tin, pushing well into corners and flattening the top. Put in the fridge (no need to cover) for 4 hrs or overnight until set. To serve, remove from tin, peel away the parchment and cut into 16 squares (any crumbly bits that fall off make tasty samples for the cook). Will keep for up to 1 week in an airtight container in the fridge. Can be frozen for up to 1 month.",
+        "count": 7
+      },
+      "title": "Chocolate fridge cake"
+    },
+    "13": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "8 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["chicken", "avocado", "jalapeño"],
+        "0": {
+          "name": "1 chicken breast"
+        },
+        "1": {
+          "name": "1 tsp chipotle paste"
+        },
+        "2": {
+          "name": "1 lime"
+        },
+        "3": {
+          "name": "1-2 slices cheese"
+        },
+        "4": {
+          "name": "1 brioche bun, split"
+        },
+        "5": {
+          "name": "½ avocado"
+        },
+        "6": {
+          "name": "2 cherry tomatoes, chopped"
+        },
+        "7": {
+          "name": "3-4 pickled jalapeño slices, chopped"
+        },
+        "8": {
+          "name": "½ small garlic clove, finely grated"
+        },
+        "count": 9
+      },
+      "method": {
+        "0": "Put the chicken breast between two pieces of cling film and bash with a rolling pin or pan to about 1cm thick. Mix the chipotle paste with half the lime juice and spread over the chicken.",
+        "1": "Heat a griddle pan over a high heat. Once hot, cook the chicken for 3 mins each side until cooked through, adding the cheese for the final 2 mins of cooking. Add the bun, cut-side down, to the griddle pan to toast lightly. Season the chicken.",
+        "2": "Meanwhile, mash the avocado with the remaining lime juice. Stir in the cherry tomatoes, jalapeño and garlic, and season with a little salt. Spread over the base of the bun, then add the chicken followed by the top of the bun.",
+        "count": 3
+      },
+      "title": "Mexican chicken burger"
+    },
+    "14": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["salmon", "rice", "pak choi"],
+        "0": {
+          "name": "2 skinless salmon fillets"
+        },
+        "1": {
+          "name": "1 tbsp sweet chilli sauce"
+        },
+        "2": {
+          "name": "1 tbsp honey"
+        },
+        "3": {
+          "name": "1 tsp sesame oil"
+        },
+        "4": {
+          "name": "1 tbsp mirin or dry sherry"
+        },
+        "5": {
+          "name": "2 tbsp soy sauce"
+        },
+        "6": {
+          "name": "2 tsp finely grated ginger"
+        },
+        "7": {
+          "name": "brown rice or noodles, to serve (optional)"
+        },
+        "8": {
+          "name": "2 large pak choi"
+        },
+        "9": {
+          "name": "2 tsp vegetable oil"
+        },
+        "10": {
+          "name": "2 tsp sesame oil"
+        },
+        "11": {
+          "name": "3 garlic cloves, grated"
+        },
+        "12": {
+          "name": "75ml fish or vegetable stock"
+        },
+        "13": {
+          "name": "2 tsp toasted sesame seeds, for sprinkling"
+        },
+        "count": 14
+      },
+      "method": {
+        "0": "Heat oven to 200C/180C fan/gas 6 and put the salmon in a shallow baking dish. Mix the sweet chilli, honey, sesame oil, mirin, soy and ginger in a small bowl and pour over the salmon so the steaks are completely covered. Bake for 10 mins while you cook the pak choi.",
+        "1": "Cut a slice across the base of the pak choi so the leaves separate. Heat the oils in a wok, add the garlic and stir-fry briefly to soften. Add the pak choi and fry until the leaves start to wilt. Pour over the stock, tightly cover the pan and allow to cook for 5 mins – you are aiming for the stems of the pak choi to be tender but still have a bit of bite.",
+        "2": "Serve the pak choi in shallow bowls, top with the salmon steaks and spoon over the juices. Scatter with the toasted sesame seeds and serve on its own or with brown rice or noodles.",
+        "count": 3
+      },
+      "title": "Teriyaki salmon with sesame pak choi"
+    },
+    "15": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["prawns", "noodles", "wasabi"],
+        "0": {
+          "name": "1 tbsp wasabi"
+        },
+        "1": {
+          "name": "3 tbsp soy sauce"
+        },
+        "2": {
+          "name": "1 large garlic clove, crushed"
+        },
+        "3": {
+          "name": "150g soba noodles"
+        },
+        "4": {
+          "name": "50g butter"
+        },
+        "5": {
+          "name": "180g raw peeled king prawns"
+        },
+        "6": {
+          "name": "4 spring onions, finely sliced"
+        },
+        "count": 7
+      },
+      "method": {
+        "0": "Mix the wasabi, soy sauce and garlic in a small bowl. Bring a large pan of water to the boil and cook the noodles following pack instructions.",
+        "1": "Meanwhile, heat the butter in a frying pan. Once foaming, stir in the prawns and cook for a few mins until pink. Stir in the wasabi mixture with a couple of spoonfuls of the noodle cooking water and heat through. Add the noodles to the pan with the spring onions, toss together and divide between two plates.",
+        "count": 2
+      },
+      "title": "Soba noodles with wasabi garlic prawns"
+    },
+    "16": {
+      "details": {
+        "prep_time": "2 mins",
+        "cook_time": "6 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["rice", "prawns", "beans"],
+        "0": {
+          "name": "150g pack raw peeled king prawns"
+        },
+        "1": {
+          "name": "1 ½ tbsp jerk seasoning"
+        },
+        "2": {
+          "name": "400g can kidney beans"
+        },
+        "3": {
+          "name": "250g pouch coconut rice"
+        },
+        "count": 4
+      },
+      "method": {
+        "0": "Heat 1 tbsp flavourless oil in a large frying pan. Add the prawns and the jerk seasoning, and cook for 1-2 mins. Drain the beans, reserving 3 tbsp of the chilli sauce.",
+        "1": "Add the beans to the pan along with the reserved sauce and the coconut rice. Fry for 3-4 mins, then season with salt to taste and spoon into two bowls to serve.",
+        "count": 2
+      },
+      "title": "Jerk prawn & coconut rice bowls"
+    },
+    "17": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "15 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["cheese", "tuna", "penne"],
+        "0": {
+          "name": "350g penne"
+        },
+        "1": {
+          "name": "1 tbsp olive oil"
+        },
+        "2": {
+          "name": "5 tbsp caper"
+        },
+        "3": {
+          "name": "185g jar pitted black olives, drained and roughly chopped"
+        },
+        "4": {
+          "name": "zest and juice 1 lime"
+        },
+        "5": {
+          "name": "2 x 200g tins tuna"
+        },
+        "6": {
+          "name": "4 tbsp grated parmesan"
+        },
+        "7": {
+          "name": "½ small pack basil"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Bring a large",
+        "1": "pan",
+        "2": "of salted water to the boil and cook the penne for 1 min less than pack instructions. Drain, reserving a cup of the cooking water, and leave the pasta in the",
+        "3": "colander",
+        "4": ".",
+        "5": "Heat the oil in the same pan you cooked the pasta in over a medium-high heat. When hot, add the capers and stir to coat in the oil. When the capers start to pop, reduce the heat and add the olives, lime zest and juice and tuna. Stir together, then return the pasta to the pan with the reserved cooking water. Stir through the Parmesan and basil and season with black pepper.",
+        "count": 6
+      },
+      "title": "Penne with a punchy tuna sauce"
+    },
+    "18": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["gnocchi", "mushrooms", "cheese"],
+        "0": {
+          "name": "2 x 400g packs fresh gnocchi"
+        },
+        "1": {
+          "name": "1 tbsp olive oil"
+        },
+        "2": {
+          "name": "knob of butter"
+        },
+        "3": {
+          "name": "1 large onion"
+        },
+        "4": {
+          "name": "500g small Forestière or Portobello mushrooms, sliced"
+        },
+        "5": {
+          "name": "2 large garlic cloves, chopped"
+        },
+        "6": {
+          "name": "150g pack creamy blue cheese (we used Danish blue)"
+        },
+        "7": {
+          "name": "small pack parsley"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Bring a large pan of water to the boil and cook the gnocchi following pack instructions. When they float to the top of the pan, they are ready. Drain and set aside.",
+        "1": "Meanwhile, heat the oil and butter in a large lidded frying pan. Add the onion and mushrooms, cook for 1 min over a high heat, then turn down the heat to medium, put the lid on and cook for 5 mins, stirring a few times.",
+        "2": "Remove the lid and add the garlic, cook for 1-2 mins, then stir the gnocchi into the pan. Scatter over blobs of cheese and the parsley.",
+        "count": 3
+      },
+      "title": "Gnocchi with mushrooms & blue cheese"
+    },
+    "19": {
+      "details": {
+        "prep_time": "2 mins",
+        "cook_time": "N/A",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["prawns", "courgette", "curry"],
+        "0": {
+          "name": "3 tbsp Thai green curry paste"
+        },
+        "1": {
+          "name": "400ml can coconut milk"
+        },
+        "2": {
+          "name": "150g cooked prawns"
+        },
+        "3": {
+          "name": "250g pack courgetti"
+        },
+        "count": 4
+      },
+      "method": {
+        "0": "Heat 1 tsp flavourless oil in a frying pan over a medium heat. Add the curry paste and cook for 1 min. Pour in the coconut milk, then leave to bubble away for a few mins before adding the prawns and courgetti. Cook for 1 min more to warm through, then divide between bowls.",
+        "count": 1
+      },
+      "title": "Easy laksa"
+    },
+    "20": {
+      "details": {
+        "prep_time": "2 mins",
+        "cook_time": "N/A",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["feta", "beetroot", "grain"],
+        "0": {
+          "name": "110g bag mixed leaves"
+        },
+        "1": {
+          "name": "100g marinated feta"
+        },
+        "2": {
+          "name": "400g tub beetroot"
+        },
+        "3": {
+          "name": "1 ready-to-eat mixed grain pouch"
+        },
+        "count": 4
+      },
+      "method": {
+        "0": "Put all the ingredients in a large bowl and toss together with some seasoning, The oil in the feta will create a dressing for the salad.",
+        "count": 1
+      },
+      "title": "Beetroot, feta & grain salad"
+    },
+    "21": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["beef", "ginger", "mushrooms"],
+        "0": {
+          "name": "4 tbsp oyster sauce"
+        },
+        "1": {
+          "name": "2 tbsp dark soy sauce"
+        },
+        "2": {
+          "name": "1-2 tbsp vegetable oil"
+        },
+        "3": {
+          "name": "400g beef"
+        },
+        "4": {
+          "name": "finger-tip length chunk fresh root ginger, chopped"
+        },
+        "5": {
+          "name": "300g spring greens"
+        },
+        "6": {
+          "name": "150g pack chestnut mushroom, sliced"
+        },
+        "count": 7
+      },
+      "method": {
+        "0": "Mix the sauces together and set aside. Heat a wok until smoking hot, add 1 tsp oil, then stir-fry the meat until browned all over. You may need to do this in 2 batches, adding a little more oil. Remove the meat, then wipe the wok clean.",
+        "1": "Add a little more oil. Stir-fry the ginger until golden, then add the spring greens and mushrooms. Cook for 3 mins, stirring often, then add the steak and soy sauce mixture. Cook for 3-4 more mins until the sauce has thickened a little and everything is warmed through. Serve over rice or noodles.",
+        "count": 2
+      },
+      "title": "Beef, mushroom & greens stir-fry"
+    },
+    "22": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "12 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["sultana", "spinach"],
+        "0": {
+          "name": "2 red onions, sliced"
+        },
+        "1": {
+          "name": "1 tbsp olive oil"
+        },
+        "2": {
+          "name": "200g pasta"
+        },
+        "3": {
+          "name": "4 tsp balsamic vinegar"
+        },
+        "4": {
+          "name": "2 tbsp sultana"
+        },
+        "5": {
+          "name": "4 tsp caper"
+        },
+        "6": {
+          "name": "2 tbsp toasted pine nut"
+        },
+        "7": {
+          "name": "140g spinach"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Start frying the onions in the oil in a non-stick frying pan – you’ll need to cook them for about 10 mins until they’re very soft. Meanwhile, boil the pasta.",
+        "1": "Stir the vinegar, sultanas, capers and most of the pine nuts into the soft onions with some seasoning, then cook for 1 min more to soften the sultanas. Stir in the spinach with a splash of pasta water. Drain the pasta, then toss with the onion mix – the spinach should wilt as you do. Divide between 2 bowls, scatter with the remaining pine nuts and serve.",
+        "count": 2
+      },
+      "title": "Venetian-style pasta"
+    },
+    "23": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "15 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["pork", "potatoes", "beans", "tomatoes"],
+        "0": {
+          "name": "454g pack reduced-fat pork sausage"
+        },
+        "1": {
+          "name": "2 tsp vegetable oil"
+        },
+        "2": {
+          "name": "1kg new potatoes"
+        },
+        "3": {
+          "name": "2 red peppers, deseeded and sliced"
+        },
+        "4": {
+          "name": "2 garlic cloves, crushed"
+        },
+        "5": {
+          "name": "1 tsp each ground coriander, chilli powder and ground cumin"
+        },
+        "6": {
+          "name": "400g can red kidney beans in water, rinsed and drained"
+        },
+        "7": {
+          "name": "2 x 400g cans chopped tomatoes"
+        },
+        "8": {
+          "name": "2 tsp caster sugar"
+        },
+        "9": {
+          "name": "5 tbsp 0% fat Greek yogurt"
+        },
+        "10": {
+          "name": "20g pack chive, snipped"
+        },
+        "count": 11
+      },
+      "method": {
+        "0": "Squeeze 3 balls of meat from each sausage, then fry in the oil for 5 mins until golden. While they cook, put the potatoes on to boil for 10 mins until tender. Add the peppers to the pan, then fry for 4 mins more. Tip in the garlic and spices, fry for 1 min, then add the beans, tomatoes and sugar. Simmer for 5 mins until saucy and the meatballs are cooked.",
+        "1": "Drain the potatoes, then crush with a masher. Fold through the yogurt and chives, loosen with a splash of water, then serve with the chilli. Top with a dollop more yogurt and sprinkling of chives, if you like.",
+        "count": 2
+      },
+      "title": "Quick chilli with creamy chive crushed potatoes"
+    },
+    "24": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "6 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["chicken", "cheese", "tortillas"],
+        "0": {
+          "name": "4 tbsp hot salsa from a jar"
+        },
+        "1": {
+          "name": "2 large flour tortillas"
+        },
+        "2": {
+          "name": "215g can kidney bean"
+        },
+        "3": {
+          "name": "1 spring onion"
+        },
+        "4": {
+          "name": "50g leftover roast chicken"
+        },
+        "5": {
+          "name": "85g grated mature cheddar"
+        },
+        "6": {
+          "name": "½ a 20g pack coriander, leaves chopped (optional)"
+        },
+        "7": {
+          "name": "oil, for brushing"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Spread 2 tbsp salsa onto each tortilla, then evenly top one of them with the beans, spring onion, chicken and cheddar. Scatter with coriander, if you have it. Sandwich with the other tortilla, then brush with oil.",
+        "1": "Heat a large non-stick frying pan, then cook the tortilla, oil-side down, for 4 mins. Carefully turn over with a palette knife (or by turning it out onto a plate, sliding it back into the pan), then cook for 2 mins on the other side until golden. Serve cut into wedges.",
+        "count": 2
+      },
+      "title": "Salsa chicken & cheese tortillas"
+    },
+    "25": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "5 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["rice noodles", "tomatoes", "cheese"],
+        "0": {
+          "name": "250g medium rice noodles"
+        },
+        "1": {
+          "name": "85g sundried tomatoes plus 2 tbsp of their oil"
+        },
+        "2": {
+          "name": "3 garlic cloves"
+        },
+        "3": {
+          "name": "25g parmesan"
+        },
+        "4": {
+          "name": "large handful basil leaves, torn"
+        },
+        "count": 5
+      },
+      "method": {
+        "0": "Prepare the noodles according to pack instructions, then drain. Heat the oil, then fry the tomatoes and garlic for 3 mins. Toss the noodles and most of the cheese and basil into the pan, season, then scatter over the remaining cheese and basil.",
+        "count": 1
+      },
+      "title": "Rice noodles with sundried tomatoes, Parmesan & basil"
+    },
+    "26": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["mackerel", "rice"],
+        "0": {
+          "name": "2 hot-smoked, peppered mackerel"
+        },
+        "1": {
+          "name": "1 tbsp teriyaki marinade (we used Kikkoman), plus more if you like"
+        },
+        "2": {
+          "name": "bunch spring onions"
+        },
+        "3": {
+          "name": "100g basmati rice"
+        },
+        "4": {
+          "name": "½ cucumber, halved, deseeded and sliced"
+        },
+        "5": {
+          "name": "50g baby spinach"
+        },
+        "6": {
+          "name": "85g (or a big handful) beansprout"
+        },
+        "7": {
+          "name": "1 tsp sugar"
+        },
+        "8": {
+          "name": "1 tbsp rice or white wine vinegar"
+        },
+        "count": 9
+      },
+      "method": {
+        "0": "Put the mackerel into a shallow dish, splash over the marinade and scatter with half the spring onions. Set aside. Put the rice into a pan, cover with a fingertip of water, season with salt, then bring to the boil. Turn down heat, stir, then cover and simmer for 10 mins until all of the water has disappeared. Take off the heat, cover and leave to steam for 5 mins.",
+        "1": "Mix the cucumber with the remaining onions, spinach leaves and beansprouts. Stir together the sugar and vinegar with some seasoning. Lift the fish out of the marinade and put onto 2 plates. Drizzle with more marinade from the dish, if you like. Spoon the rice alongside, then toss the salad with the dressing and serve.",
+        "count": 2
+      },
+      "title": "Teriyaki mackerel with tangy cucumber salad"
+    },
+    "27": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["ricotta", "tortillas"],
+        "0": {
+          "name": "½ squash, peeled and cut into thin slices"
+        },
+        "1": {
+          "name": "1 tsp cumin"
+        },
+        "2": {
+          "name": "3 tbsp vegetable oil"
+        },
+        "3": {
+          "name": "1 green chilli"
+        },
+        "4": {
+          "name": "handful coriander leaves, chopped"
+        },
+        "5": {
+          "name": "zest and juice 1 lime"
+        },
+        "6": {
+          "name": "4 soft wheat tortillas"
+        },
+        "7": {
+          "name": "100g ricotta"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Toss together the squash, cumin and 2 tbsp oil in a bowl and season well. Cook on a hot griddle for 3-5 mins on each side until lightly charred and soft.",
+        "1": "Mix together the chilli, coriander, lime zest and a squeeze of juice with the remaining tbsp oil to make a salsa. Toast the tortillas on the griddle for 30 secs on each side. Fold them in half, then halve again to make a pocket. Place some squash slices inside and dollop over some ricotta. Drizzle with the salsa and serve straight away.",
+        "count": 2
+      },
+      "title": "Squash & ricotta wraps with coriander salsa"
+    },
+    "28": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "15 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["tomatoes", "cod"],
+        "0": {
+          "name": "1 tbsp olive oil"
+        },
+        "1": {
+          "name": "1 onion"
+        },
+        "2": {
+          "name": "400g can chopped tomato"
+        },
+        "3": {
+          "name": "1 heaped tsp light, soft brown sugar"
+        },
+        "4": {
+          "name": "few sprigs thyme"
+        },
+        "5": {
+          "name": "1 tbsp soy sauce"
+        },
+        "6": {
+          "name": "4 cod"
+        },
+        "count": 7
+      },
+      "method": {
+        "0": "Heat the oil in a frying pan, add the onion, then fry for 5-8 mins until lightly browned. Stir in the tomatoes, sugar, thyme and soy, then bring to the boil.",
+        "1": "Simmer 5 mins, then slip the cod into the sauce. Cover and gently cook for 8-10 mins until the cod flakes easily. Serve with baked or steamed potatoes.",
+        "count": 2
+      },
+      "title": "Tomato & thyme cod"
+    },
+    "29": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "15 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["chicken", "ginger", "egg noddle"],
+        "0": {
+          "name": "1 tbsp sunflower oil"
+        },
+        "1": {
+          "name": "2 skinless chicken breasts, cut into strips"
+        },
+        "2": {
+          "name": "zest and juice 1 lemon"
+        },
+        "3": {
+          "name": "1 tbsp caster sugar"
+        },
+        "4": {
+          "name": "2 tbsp grated fresh root ginger"
+        },
+        "5": {
+          "name": "2 tsp cornflour"
+        },
+        "6": {
+          "name": "125g pack or 2 sheets medium dried egg noodle"
+        },
+        "7": {
+          "name": "200g frozen pea and bean mix"
+        },
+        "8": {
+          "name": "4 spring onions"
+        },
+        "9": {
+          "name": "1 tbsp roasted cashews"
+        },
+        "count": 10
+      },
+      "method": {
+        "0": "Heat the oil in a non-stick pan, then fry the chicken for 5 mins until almost cooked. Tip onto a plate. Pour 250ml water into the pan with the lemon zest and juice, sugar and ginger. In a bowl, mix the cornflour with a little water until smooth, then whisk into the pan. Bring to the boil, stirring, then add the chicken to the sauce. Reduce the heat. Bubble for a few mins until chicken is cooked and the sauce thickened.",
+        "1": "Meanwhile, cook the noodles and veg together in boiling water for 4 mins, then drain. Toss together the chicken, noodles, veg and spring onions; serve scattered with nuts.",
+        "count": 2
+      },
+      "title": "Lemon chicken with spring veg noodles"
+    },
+    "30": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "15 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["peas", "cheese", "lamb"],
+        "0": {
+          "name": "300g frozen pea"
+        },
+        "1": {
+          "name": "2 x 410g/14oz cans green lentil"
+        },
+        "2": {
+          "name": "4 tbsp white wine vinegar"
+        },
+        "3": {
+          "name": "2 tbsp caster sugar"
+        },
+        "4": {
+          "name": "1 small bunch mint"
+        },
+        "5": {
+          "name": "200g pack reduced-fat feta cheese, crumbled"
+        },
+        "6": {
+          "name": "8 lamb cutlets"
+        },
+        "7": {
+          "name": "1 tsp olive oil"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Cook peas in boiling water for 3-4 mins until just tender, then drain. Mix with the lentils, vinegar, sugar and mint, then crumble in the feta and season well.",
+        "1": "Heat a griddle pan, brush the cutlets with a little oil and season. Cook in the hot pan for 4 mins on each side until browned and the middle is pink. Divide the salad between four bowls, then top with a couple of cutlets per person.",
+        "count": 2
+      },
+      "title": "Lamb cutlets with lentil & feta salad"
+    },
+    "31": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "15 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["beef", "apricots", "tomatoes"],
+        "0": {
+          "name": "1 tbsp olive oil"
+        },
+        "1": {
+          "name": "350g pack ready-made beef"
+        },
+        "2": {
+          "name": "1 large onion"
+        },
+        "3": {
+          "name": "100g dried apricot, halved"
+        },
+        "4": {
+          "name": "1 small cinnamon"
+        },
+        "5": {
+          "name": "400g tin chopped tomato"
+        },
+        "6": {
+          "name": "25g toasted flaked almond"
+        },
+        "7": {
+          "name": "handful coriander, roughly chopped"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Heat the oil in a large deep frying pan, then fry the meatballs for 10 mins, turning occasionally until cooked through. Scoop out of the pan and set aside, then cook the onion for 5 mins, until softened.",
+        "1": "Add the dried apricots, cinnamon stick, tomatoes and half a can of water to the pan, then bring to the boil and simmer for 10 mins. Remove the cinnamon stick. Return the meatballs to the pan and coat well with the tomato sauce. Serve sprinkled with the almonds and coriander.",
+        "count": 2
+      },
+      "title": "Speedy Moroccan meatballs"
+    },
+    "32": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["prawns", "rice"],
+        "0": {
+          "name": "1 tbsp sunflower oil"
+        },
+        "1": {
+          "name": "1 red onion"
+        },
+        "2": {
+          "name": "200g pack mixed vegetable medley"
+        },
+        "3": {
+          "name": "200g pack large prawn"
+        },
+        "4": {
+          "name": "3 garlic cloves, finely chopped"
+        },
+        "5": {
+          "name": "2 tbsp Thai fish sauce"
+        },
+        "6": {
+          "name": "500g cooked, rice"
+        },
+        "7": {
+          "name": "chopped coriander and soy sauce, to serve"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Heat the oil in a large wok. Add the red onion and vegetables, then stir-fry for 2 mins until starting to wilt. Throw in the prawns, garlic and fish sauce and cook everything together for 3-4 mins until the prawns change colour and cook through. (If using cooked prawns, you just need to stir them into the rice to warm through before serving.)",
+        "1": "Scatter in the rice, then carry on cooking for 3-4 mins until the rice is piping hot. Serve scattered with coriander and pass round the soy sauce bottle for those who want it.",
+        "count": 2
+      },
+      "title": "Speedy prawn fried rice"
+    },
+    "33": {
+      "details": {
+        "prep_time": "N/A",
+        "cook_time": "N/A",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["ginger", "chilli", "prawns"],
+        "0": {
+          "name": "1 tbsp sunflower oil"
+        },
+        "1": {
+          "name": "1 red onion, thinly sliced"
+        },
+        "2": {
+          "name": "1 garlic clove"
+        },
+        "3": {
+          "name": "2 tsp ready-prepared ginger"
+        },
+        "4": {
+          "name": "½-1tsp ready chopped chillies"
+        },
+        "5": {
+          "name": "200g can chopped tomatoes"
+        },
+        "6": {
+          "name": "200g raw peeled prawns or chopped skinless boneless chicken"
+        },
+        "7": {
+          "name": "2 tsp gujarati masala, or garam masala"
+        },
+        "8": {
+          "name": "3 tbsp low fat yogurt"
+        },
+        "9": {
+          "name": "handful coriander leaves, roughly chopped or torn"
+        },
+        "count": 10
+      },
+      "method": {
+        "0": "Heat the oil in a pan, add onion and fry until they colour. Crush the garlic into the pan, add ginger and chilli; cook briefly. Add tomatoes and a quarter of a can of water and bring to the boil. Simmer for 2 mins, add prawns or chicken and gujarati masala, cover and cook for 2-3 mins for prawns and 5-6 mins for chicken.",
+        "1": "Reduce the heat to a simmer, then stir in the yogurt, a tablespoonful at time. Sprinkle with coriander and serve with warm garlic and coriander naans and a crisp salad of cucumber, shredded lettuce, sliced red onion and wedges of lemon.",
+        "count": 2
+      },
+      "title": "Curry in a hurry"
+    },
+    "34": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["steak", "baguette"],
+        "0": {
+          "name": "4 minute steaks"
+        },
+        "1": {
+          "name": "1 tbsp olive oil"
+        },
+        "2": {
+          "name": "1 small ciabatta loaf"
+        },
+        "3": {
+          "name": "4 tbsp caramelised onions"
+        },
+        "4": {
+          "name": "half an 85g bag watercress"
+        },
+        "count": 5
+      },
+      "method": {
+        "0": "Put the grill on. Heat a little oil in a frying pan. Season both sides of the steaks with salt, then fry for 1-2 minutes on each side. Meanwhile, slice the ciabatta in half lengthways and grill the cut sides until golden.",
+        "1": "Drizzle the toasted ciabatta with olive oil, spread the bottom half with the onions and sit the steaks on top. Cover with the watercress and close the sandwich with the other half of the ciabatta. Cut into four sandwiches and serve two per person. Serve hot.",
+        "count": 2
+      },
+      "title": "Steak & caramelised onion sandwich"
+    },
+    "35": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "15 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["steak", "tomatoes"],
+        "0": {
+          "name": "1 tbsp olive oil"
+        },
+        "1": {
+          "name": "200g sirloin or rump steak"
+        },
+        "2": {
+          "name": "1 small onion"
+        },
+        "3": {
+          "name": "1 garlic clove, finely sliced"
+        },
+        "4": {
+          "name": "pinch dried oregano"
+        },
+        "5": {
+          "name": "glass red wine"
+        },
+        "6": {
+          "name": "200g can chopped tomato"
+        },
+        "count": 7
+      },
+      "method": {
+        "0": "Heat the oil in a pan. Fry steak for 2 mins on each side until brown. Remove steak to a plate, then throw the onion, garlic and oregano into the pan. Fry for 5 mins until starting to turn golden.",
+        "1": "Tip the wine and tomatoes into the pan, then simmer for 10 mins until thickened and rich. Slice the steak into chunks, return to the pan with any juices, then simmer for a few mins to reheat. Serve with pasta, chips or some fried potatoes.",
+        "count": 2
+      },
+      "title": "20-minute beef in red wine"
+    },
+    "36": {
+      "details": {
+        "prep_time": "N/A",
+        "cook_time": "N/A",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["tomatoes", "spaghetti", "seafood mix"],
+        "0": {
+          "name": "1 tbsp olive oil"
+        },
+        "1": {
+          "name": "1 onion"
+        },
+        "2": {
+          "name": "1 garlic clove, chopped"
+        },
+        "3": {
+          "name": "1 tsp paprika"
+        },
+        "4": {
+          "name": "400g can of chopped tomatoes"
+        },
+        "5": {
+          "name": "1l chicken stock (from a cube is fine)"
+        },
+        "6": {
+          "name": "300g spaghetti, roughly broken"
+        },
+        "7": {
+          "name": "240g pack frozen seafood mix, defrosted"
+        },
+        "8": {
+          "name": "handful of parsley"
+        },
+        "count": 9
+      },
+      "method": {
+        "0": "Heat the oil in a wok or large frying pan, then cook the onion and garlic over a medium heat for 5 mins until soft. Add the paprika, tomatoes and stock, then bring to the boil.",
+        "1": "Turn down the heat to a simmer, stir in the pasta and cook for 7 mins, stirring occasionally to stop the pasta from sticking. Stir in the seafood, cook for 3 mins more until it’s all heated through and the pasta is cooked, then season to taste. Sprinkle with parsley and serve with lemon wedges.",
+        "count": 2
+      },
+      "title": "20-minute seafood pasta"
+    },
+    "37": {
+      "details": {
+        "prep_time": "20 mins",
+        "cook_time": "N/A",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["pork", "mushrooms"],
+        "0": {
+          "name": "500g pork tenderloin fillet"
+        },
+        "1": {
+          "name": "1 tbsp plain flour"
+        },
+        "2": {
+          "name": "2 tsp dried rosemary"
+        },
+        "3": {
+          "name": "3 tbsp olive oil"
+        },
+        "4": {
+          "name": "250g chestnut mushrooms, sliced"
+        },
+        "5": {
+          "name": "1 fat garlic clove, finely chopped"
+        },
+        "6": {
+          "name": "300ml vegetable stock"
+        },
+        "count": 7
+      },
+      "method": {
+        "0": "Coat the pork: Cut the pork diagonally into finger-thick slices. Tip the flour and rosemary into a large plastic food bag, add some salt and pepper and the pork, and toss until the meat is well coated.",
+        "1": "Start cooking: Heat 2 tablespoons of the oil in a large wide frying pan. Add the pork and fry for about 3-4 minutes until nicely browned on both sides, turning once. Remove from the pan.",
+        "2": "Fry the mushrooms: Heat the remaining oil in the pan, tip in the mushrooms and fry until they start to soften, about 2 minutes. Sprinkle in the garlic and return the pork to the pan with any flour left in the bag. Stir in the stock and bring to the boil. Simmer for 5 minutes or until the pork is cooked.",
+        "count": 3
+      },
+      "title": "20-minute pork pan-fry"
+    },
+    "38": {
+      "details": {
+        "prep_time": "5 mins",
+        "cook_time": "15 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["rice", "curry", "eggs"],
+        "0": {
+          "name": "300g long grain rice"
+        },
+        "1": {
+          "name": "600ml hot vegetable or fish stock (from a cube is fine)"
+        },
+        "2": {
+          "name": "1 tbsp korma curry paste"
+        },
+        "3": {
+          "name": "100ml frozen peas"
+        },
+        "4": {
+          "name": "150g pack smoked mackerel, skinned"
+        },
+        "5": {
+          "name": "3 tbsp low-fat crème fraîche"
+        },
+        "6": {
+          "name": "2 hard-boiled eggs"
+        },
+        "7": {
+          "name": "handful coriander, to serve"
+        },
+        "count": 8
+      },
+      "method": {
+        "0": "Tip the rice into a large microwavable container. Mix together the stock and curry paste, then pour over the rice. cover with cling film and pierce a few times with a fork. Microwave for 6 mins on High.",
+        "1": "Break the mackerel into large chunks and stir through the rice along with the peas and crème fraîche, then microwave for 6-8 mins more on medium until the rice is tender. Top with the eggs and serve sprinkled with the coriander.",
+        "count": 2
+      },
+      "title": "20-minute rice supper"
+    },
+    "39": {
+      "details": {
+        "prep_time": "10 mins",
+        "cook_time": "10 mins",
+        "difficulty": " Easy "
+      },
+      "ingredients": {
+        "key_ingredients": ["tuna", "pasta"],
+        "0": {
+          "name": "400g pasta"
+        },
+        "1": {
+          "name": "6 tbsp extra-virgin olive oil"
+        },
+        "2": {
+          "name": "2 garlic cloves, crushed"
+        },
+        "3": {
+          "name": "2 x 200g cans tuna"
+        },
+        "4": {
+          "name": "85g pitted olives"
+        },
+        "5": {
+          "name": "2 tbsp capers"
+        },
+        "6": {
+          "name": "small bunch flatleaf parsley, roughly chopped"
+        },
+        "count": 7
+      },
+      "method": {
+        "0": "Cook pasta following pack instructions. Drain, reserving a few tablespoons of water in the bottom of the pan.",
+        "1": "Return the pasta to the pan over a low heat, stir in the olive oil and garlic and allow to infuse for 1 min. Toss through the remaining ingredients, season and serve.",
+        "count": 2
+      },
+      "title": "Bows with tuna, olives & capers"
+    }
+  },
+  "count": 40
+}

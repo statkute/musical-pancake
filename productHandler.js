@@ -1,5 +1,8 @@
-var productList = ['rice', 'pasta', 'salmon', 'chicken', 'salad']
-var chosenProductList = []
+const fs = require("fs");
+
+var recipes = JSON.parse(fs.readFileSync("recipes.json"));
+var ingredient_map = JSON.parse(fs.readFileSync("recipe-map.json"));
+
 
 function shuffle(array) {
     let counter = array.length;
@@ -17,22 +20,24 @@ function shuffle(array) {
     return array;
 }
 
-get3Products = () => {
+
+
+getIngredinetChoises = () => {
+  var productList = ingredient_map.key_ingredients_list
   var shuffledlist = shuffle(productList);
-  return {'1':shuffledlist[0], '2':shuffledlist[1], '3':shuffledlist[2]};
+  return {'0':{'1':shuffledlist[0], '2':shuffledlist[1], '3':shuffledlist[2]},
+          '1':{'1':shuffledlist[3], '2':shuffledlist[4], '3':shuffledlist[5]},
+          '2':{'1':shuffledlist[6], '2':shuffledlist[7], '3':shuffledlist[8]}
+        };
 };
 
-chosenProduct = (product) => {
-  chosenProductList.push(product);
+chosenProduct = (produts) => {
+
 };
 
-getSearchQuery = () => {
-  return `&q=${chosenProductList[0]},${chosenProductList[1]},${chosenProductList[2]}`
-};
 
 
 module.exports = {
-   get3Products,
+   getIngredinetChoises,
    chosenProduct,
-   getSearchQuery
 };
