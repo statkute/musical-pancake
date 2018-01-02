@@ -8,8 +8,8 @@ const fs = require("fs");
 const port = 3000;
 
 var app = express();
-var secret = fs.readFileSync("secret.json");
-var API_KEY = JSON.parse(secret).API_Key;
+//var secret = fs.readFileSync("secret.json");
+//var API_KEY = JSON.parse(secret).API_Key;
 //config ==========================================
 
 //mongoose.connect('mongodb://node:')
@@ -58,8 +58,8 @@ app.get('/api/recipe', function(req,res) {
                   }
                 },
                 "method":{
+                  "step_count":"2",
                   "steps":{
-                    "step_count":"2",
                     "0": "To this and that",
                     "1": "Once this and that is done do that this"
                   }
