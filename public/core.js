@@ -11,6 +11,7 @@ function mainController($scope, $http) {
       $scope.products = data
       $scope.productData = data;
       allIngredients = $scope.products;
+      alert($scope.products[0][0]);
       console.log(data['1']);
     })
     .error(function(data) {
@@ -18,7 +19,7 @@ function mainController($scope, $http) {
     });
 
     $scope.chooseIngredient = function(ing) {
-      $scope.sendData['choise'] = $scope.productData[ing];
+      /*$scope.sendData['choise'] = $scope.productData[ing];
       $http.post('/api/products', $scope.sendData)
         .success(function(data) {
           $scope.productData = {};
@@ -27,17 +28,17 @@ function mainController($scope, $http) {
         })
         .error(function(data) {
           console.log('Error: ' + data);
-        });
+      });*/
     };
 
-    $http.get('/api/recipe')
+    /*$http.get('/api/recipe')
       .success(function(data) {
         $scope.recipe = data
         console.log(data['title']);
       })
       .error(function(data) {
         console.log('Error: ' + data);
-      });
+    });*/
 };
 
 $(document).ready(function() {
@@ -58,6 +59,7 @@ $(document).ready(function() {
                 tempName += '}}';
                 tempId += i;
                 $(("#"+tempId)).html(allIngredients[temp][i]);
+                alert("")
 
                 tempName = jsonName;
                 tempId = buttonID;
