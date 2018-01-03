@@ -18,18 +18,15 @@ function mainController($scope, $http) {
     });
 
     function postSelections () {
-        $scope.chooseIngredient = function() {
           $scope.sendData['choise'] = choises;
           $http.post('/api/products', $scope.sendData)
             .success(function(data) {
-              $scope.productData = {};
-              $scope.product = data;
+              $scope.recipe = data;
               console.log(data);
             })
             .error(function(data) {
               console.log('Error: ' + data);
           });
-        };
     }
 
     /*$http.get('/api/recipe')
