@@ -10,7 +10,7 @@ var app = express();
 //var API_KEY = JSON.parse(secret).API_Key;
 //config ==========================================
 
-//mongoose.connect('mongodb://node:')
+//mongoose.connect('JSON.parse(answer)mongodb://node:')
 
 app.use(express.static(__dirname + '/public'));
 app.use(morgan('dev'));
@@ -27,43 +27,44 @@ app.get('/api/products', function(req, res) {
 });
 
 app.post('/api/products', function(req,res) {
-  var product =  req.body.choise;
-  productHandler.chosenProduct(product);
-  console.log(product);
+  var answer =  req.body;
+  console.log(answer.choise);
+  var recipe = productHandler.getRecipe(answer.choise);
+  res.json(recipe);
 });
 
-app.get('/api/recipe', function(req,res) {
-  var recipe = {"title": "Salmon with beetroot, feta & lime salsa",
-                "details": {
-                  "difficulty": "easy",
-                  "prep_time": "5 mins",
-                  "cook_time": "10 mins"
-                },
-                "ingredients": {
-                  "count":"3",
-                  "0":{
-                    "amount":"500 g",
-                    "name": "salmon"
-                  },
-                  "1":{
-                    "amount":"200 g",
-                    "name": "beetroot"
-                  },
-                  "2":{
-                    "amount":"150g",
-                    "name":"feta"
-                  }
-                },
-                "method":{
-                  "step_count":"2",
-                  "steps":{
-                    "0": "To this and that",
-                    "1": "Once this and that is done do that this"
-                  }
-                }
-              };
-    res.json(recipe);
-});
+// app.get('/api/recipe', function(req,res) {
+//   var recipe = {"title": "Salmon with beetroot, feta & lime salsa",
+//                 "details": {
+//                   "difficulty": "easy",
+//                   "prep_time": "5 mins",
+//                   "cook_time": "10 mins"
+//                 },
+//                 "ingredients": {
+//                   "count":"3",
+//                   "0":{
+//                     "amount":"500 g",
+//                     "name": "salmon"
+//                   },
+//                   "1":{
+//                     "amount":"200 g",
+//                     "name": "beetroot"
+//                   },
+//                   "2":{
+//                     "amount":"150g",
+//                     "name":"feta"
+//                   }
+//                 },
+//                 "method":{
+//                   "step_count":"2",
+//                   "steps":{
+//                     "0": "To this and that",
+//                     "1": "Once this and that is done do that this"
+//                   }
+//                 }
+//               };
+//     res.json(recipe);
+// });
 //application =====================================
 
 app.get('*', function(req, res) {

@@ -7,7 +7,7 @@
         "difficulty": " Easy "
       },
       "ingredients": {
-        "key_ingredients": ["salmon, beetroot, feta"],
+        "key_ingredients": ["salmon","beetroot", "feta"],
         "0": {
           "name": "200g cooked beetroot"
         },

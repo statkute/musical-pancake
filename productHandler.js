@@ -1,7 +1,7 @@
 const fs = require("fs");
 
-var recipes = JSON.parse(fs.readFileSync("recipes.json"));
-var ingredient_map = JSON.parse(fs.readFileSync("recipe-map.json"));
+var recipes = JSON.parse(fs.readFileSync("./Recipes/recipes.json"));
+var ingredient_map = JSON.parse(fs.readFileSync("./Recipes/recipe-map.json"));
 
 
 function shuffle(array) {
@@ -31,13 +31,49 @@ getIngredinetChoises = () => {
         };
 };
 
-chosenProduct = (produts) => {
+getRecipe = (ingredients) => {
+  var counter = {}
+  var first_keys = ingredient_map['reversed_map'][ingredients['1']];
+  var second_keys = ingredient_map['reversed_map'][ingredients['2']];
+  var third_keys = ingredient_map['reversed_map'][ingredients['3']];
+  first_keys.forEach(function(num) {
+    if(num.toString() in counter){
+      counter[num.toString()]++
+    }
+    else{
+      counter[num.toString()] = 1
+    }
+  });
+  second_keys.forEach(function(num) {
+    if(num.toString() in counter){
+      counter[num.toString()]++
+    }
+    else{
+      counter[num.toString()] = 1
+    }
+  });
+  third_keys.forEach(function(num) {
+    if(num.toString() in counter){
+      counter[num.toString()]++
+    }
+    else{
+      counter[num.toString()] = 1
+    }
+  });
+  var sortable = [];
+  for (var vehicle in counter) {
+    sortable.push([vehicle, counter[vehicle]]);
+  }
 
+  sortable.sort(function(a, b) {
+    return b[1] - a[1];
+  });
+  recipe_idx = sortable[1][0];
+  console.log(recipes['recipes'][recipe_idx]);
+  return (recipes['recipes'][recipe_idx])
 };
-
-
 
 module.exports = {
    getIngredinetChoises,
-   chosenProduct,
+   getRecipe,
 };

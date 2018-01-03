@@ -19,6 +19,7 @@ function mainController($scope, $http) {
 
     $scope.chooseIngredient = function(ing) {
       $scope.sendData['choise'] = $scope.productData[ing];
+      console.log($scope.productData[ing]);
       $http.post('/api/products', $scope.sendData)
         .success(function(data) {
           $scope.productData = {};
