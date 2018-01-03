@@ -49,33 +49,29 @@
     <div class="container">
     </br>
     </br>
-        <div class="panel panel-default">
-  <div class="panel-heading">
-    <h1 class="panel-title"> {{recipe.title}} </h1>
-  </div>
-  <div class="panel-body">
-    <h4>Details</h4>
-    <p>Difficulty: {{recipe.details.difficulty}}</p>
-    <p>Preparation time: {{recipe.details.prep_time}}</p>
-    <p>Cooking time: {{recipe.details.cook_time}}</p>
-    </br>
+    <div class="panel panel-default" id = "recipe-panel" style = "display: none;" >
 
-    <h4>Ingredients</h4>
-    <p>Number of total ingredients: {{recipe.ingredients.count}}</p>
-    </br>
-    <p>1) {{recipe.ingredients.0.amount}} of {{recipe.ingredients.0.name}}</p>
-    <p>2) {{recipe.ingredients.1.amount}} of {{recipe.ingredients.1.name}}</p>
-    <p>3) {{recipe.ingredients.2.amount}} of {{recipe.ingredients.2.name}}</p>
-    </br>
+      <div class="panel-heading">
+        <h1 class="panel-title"> {{recipe.title}} </h1>
+      </div>
 
-    <h4>Method</h4>
-    <p>Total steps required: {{recipe.method.step_count}}</p>
-    </br>
-    <p>1) {{recipe.method.steps.0}}</p>
-    <p>2) {{recipe.method.steps.1}}</p>
-    </br>
+      <div class="panel-body">
+        <h4>Details</h4>
+        <p>Difficulty: {{recipe.details.difficulty}}</p>
+        <p>Preparation time: {{recipe.details.prep_time}}</p>
+        <p>Cooking time: {{recipe.details.cook_time}}</p>
+        </br>
 
-  </div>
+        <h4>Ingredients</h4>
+        <p>Number of total ingredients: {{recipe.ingredients.count}}</p>
+        <p id = "ingredient-list">{{recipe.ingredients}}</p>
+
+        <h4>Method</h4>
+        <p>Total steps required: {{recipe.method.count}}</p>
+        <p id = "step-list">{{recipe.method.steps}}</p>
+        </br>
+
+      </div>
 </div>
 
 </body>

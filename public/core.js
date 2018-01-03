@@ -1,5 +1,10 @@
 var myAppModule = angular.module("myApp", []);
 var allIngredients;
+var fullRecipe;
+var ingredients;
+var ingredientCount;
+var stepCount;
+var steps;
 
 function mainController($scope, $http) {
   $scope.productData = {};
@@ -22,21 +27,47 @@ function mainController($scope, $http) {
           $http.post('/api/products', $scope.sendData)
             .success(function(data) {
               $scope.recipe = data;
+              fullRecipe = data;
+              ingredients = fullRecipe.ingredients;
+              ingredientCount = fullRecipe.ingredients.count;
+              steps = fullRecipe.method;
+              stepCount = fullRecipe.method.count;
               console.log(data);
+              writeIngredients.call();
+              writeSteps.call();
             })
             .error(function(data) {
               console.log('Error: ' + data);
           });
     }
 
-    /*$http.get('/api/recipe')
-      .success(function(data) {
-        $scope.recipe = data
-        console.log(data['title']);
-      })
-      .error(function(data) {
-        console.log('Error: ' + data);
-    });*/
+    function writeIngredients () {
+        var ingredientPText = "";
+        for (var i = 1; i < (ingredientCount+1); i ++){
+            ingredientPText += ("<b> " +i);
+            ingredientPText += ") " + "</b>";
+            ingredientPText += ingredients[i-1]["name"];
+            ingredientPText += " ";
+            ingredientPText += "<br />";
+        }
+        ingredientPText += "<br />";
+        console.log(ingredientPText);
+        $("#ingredient-list").html(ingredientPText);
+    }
+
+    function writeSteps () {
+        var stepPText = "";
+        for (var i = 1; i < (stepCount+1); i ++){
+            stepPText += ("<b> " +i);
+            stepPText += ") " + "</b>";
+            stepPText += steps[i-1];
+            stepPText += " ";
+            stepPText += "<br />";
+        }
+        stepPText += "<br />";
+        console.log(stepPText);
+        $("#step-list").html(stepPText);
+    }
 
     $(document).ready(function() {
 
@@ -56,12 +87,10 @@ function mainController($scope, $http) {
             }
 
             if (temp == 3){
-                alert(choise1 + " " + choise2 + " " + choise3);
                 temp ++;
-                choises["1"] = choise1;
-                choises["2"] = choise2;
-                choises["3"]= choise3;
                 postSelections.call();
+                $("#recipe-panel").show();
+                //console.log($scope.recipe.ingredients[0].name);
             }
 
             if (temp == 2){
@@ -73,25 +102,21 @@ function mainController($scope, $http) {
 
 var choises = {}
 
-var choise1 = "";
-var choise2 = "";
-var choise2 = "";
-
 var totalSelections = 0;
 
 var writeSelection = function(param)
 {
     switch(totalSelections) {
         case 0:
-            choise1 = param.innerHTML;
+            choises["1"] = param.innerHTML;
             totalSelections++;
             break;
         case 1:
-            choise2 = param.innerHTML;
+            choises["2"] = param.innerHTML;
             totalSelections++;
             break;
         case 2:
-            choise3 = param.innerHTML;
+            choises["3"] = param.innerHTML;
             totalSelections++;
             break;
         default:
