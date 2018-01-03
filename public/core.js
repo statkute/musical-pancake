@@ -11,7 +11,6 @@ function mainController($scope, $http) {
       $scope.products = data
       $scope.productData = data;
       allIngredients = $scope.products;
-      alert($scope.products[0][0]);
       console.log(data['1']);
     })
     .error(function(data) {
@@ -59,7 +58,6 @@ $(document).ready(function() {
                 tempName += '}}';
                 tempId += i;
                 $(("#"+tempId)).html(allIngredients[temp][i]);
-                alert("")
 
                 tempName = jsonName;
                 tempId = buttonID;
